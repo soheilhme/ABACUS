@@ -1,4 +1,4 @@
-CC = gcc -m32
+CC = gcc
 
 BUILD = VPR6
 
@@ -61,7 +61,7 @@ OBJ = $(patsubst $(SRC_DIR)/%.c,$(OBJ_DIR)/%.o, \
 
 DEP = $(OBJ:.o=.d)
 
-all: CTAGS $(EXEO)
+all: $(EXEO)
 
 $(EXEO): $(OBJ)
 	$(CC) $(C_FLAGS) $(FLAGS) $(OBJ) -o $(EXEO) $(LIB)

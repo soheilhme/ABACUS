@@ -1,4 +1,4 @@
-CC = gcc -m32
+CC = gcc
 AR = ar
 
 WARN_FLAGS = -Wall
