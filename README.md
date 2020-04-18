@@ -14,6 +14,14 @@ of Approximate Computing Circuits" in Design, Automation and Test in Europe, 201
 
 # Prerequisites
 
+For Compiling the source code the following packages are required:
+
+- bison and flex
+
+- libc6-dev
+
+For running the flow:
+
 - Python Version 2.4.3 or newer
 
 - ModelSim (Vsim) or Verilator
@@ -47,7 +55,7 @@ Synthesis Tool for CAD Research," Field-Programmable Custom Computing Machines (
 IEEE Annual International Symposium on, Charlotte, NC, 2010, pp. 149-156.
 
 # Compilation
-- First compile libvpr_6 by going to trunk/libvpr_6 and type "make". You might need to install libc6-dev-i386 first.
+- First compile libvpr_6 by going to trunk/libvpr_6 and type "make".
 - Then go to trunk/ABACUS and type "make clean && make".
 
 # Files in The Repository
